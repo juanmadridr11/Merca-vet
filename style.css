@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boton{
+    margin-top: 2rem;
+}
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+.boton button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.body{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+}
+
+.head img{
+    width: 20rem;
+    margin-left: 4rem;
+}
+
+.head h1{
+    margin-right: 7rem;
+    font-weight:normal;
+}
+
+.head{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    width: 40%;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 0rem;
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+#h2-1{
+    width: 5rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    border-top: 5px solid black;
+    color: #003366;
+}
+.coment{
+
+    background-color:#70E1E8   ;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    padding: 0.3rem;
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 19px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.coment p{
+    font-weight: bold;
+}
+#input-1{
+    padding: 0.2rem 0.8rem;
+    background: #003366a2; color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border:1px solid #003366a2;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#input-1:hover{
+    background: white;
+    border: 1px solid #003366a2;
+    color: #003366;
+    transition: 0.5s;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    background: #181818fb;
+    width: 100%;
+    padding: 1rem;
+}
+.footer p{
+    color: rgb(223, 223, 223);
+    font-size: 0.8rem;
+    
+}
+@media (max-width:800px){
+
+    .coment{
+        margin-left: 18rem;
+    }
+    .head{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h1{
+        margin-right: 0rem;
+    }
+    .body{
+     
+        width: 90%;
+        
+    }
+    .head img{
+        width: 13rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .head h1{
+        font-size: 1.3rem;
+    }
+    .main{
+        width: 80%;
+    }
+    .coment{
+        width: 5rem;
+    }
+    .coment p{
+        font-size: 0.9rem;
+    }
+    .form{
+        margin-top: 1.3rem;
+        text-align: center;
+        align-items: center;
+    }
+    .footer p{
+        font-size: 0.7rem;
+    }
+    
+}
