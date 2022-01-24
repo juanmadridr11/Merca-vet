@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boton{
+    margin-top: 2rem;
+}
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+.boton button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.body{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+}
+
+.head img{
+    width: 20rem;
+    margin-left: 4rem;
+}
+
+.head h1{
+    margin-right: 7rem;
+    font-weight:normal;
+}
+
+.head{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    width: 90%;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 1rem;
+}
+th{
+    border-radius: 0.3rem;
+    background: #003366;
+    color: white;
+}
+td,th,caption{
+    padding: 0.5rem;
+}
+input{
+   
+    vertical-align: text-top !important;
+    height: 2rem;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.301);
+    
+}
+
+#submit{
+    padding: 0.2rem 0.8rem;
+    background: #003366a2; color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border:1px solid #003366a2;
+    border-radius: 0.3rem;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+#submit:hover{
+    background: white;
+    border: 1px solid #003366a2;
+    color: #003366;
+    transition: 0.5s;
+}
+h2{
+    color: #CC3333;
+    margin-bottom: 0.5rem;
+}
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+table{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+@media (max-width:800px){
+
+    
+    .head{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h1{
+        margin-right: 0rem;
+    }
+    .body{
+     
+        width: 90%;
+        
+    }
+    .head img{
+        width: 13rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .head h1{
+        font-size: 1.3rem;
+    }
+    .main{
+        width: 80%;
+    }
+    .section{
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .main{
+        justify-content: center;
+        padding-left: 0rem;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    form{
+        text-align: center;
+    }
+    th{
+        font-size: 0.8rem;
+    }
+}
