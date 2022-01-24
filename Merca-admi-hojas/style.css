@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.boton{
+    margin-top: 2rem;
+}
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+.boton button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+
+.body{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+    
+}
+
+.head img{
+    width: 20rem;
+    margin-left: 4rem;
+}
+
+.head h1{
+    margin-right: 7rem;
+    font-weight:normal;
+}
+
+.head{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 0rem;
+}
+table,th,td{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+caption{
+    background: #003366e5;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+th:hover,td:hover{
+    border: 2px solid #003366ee;
+    background: #cc3333e7;
+    color: white;
+}
+a{
+    color: red;
+    transition: 0.5s;
+}
+td:hover a{
+    color: white;
+}
+
+
+
+
+@media (max-width:800px){
+
+   
+    .head{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h1{
+        margin-right: 0rem;
+    }
+    body{
+        justify-content: flex-start;
+    }
+    .body{
+     
+        width: 100%;
+        
+    }
+    .head img{
+        width: 13rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .head h1{
+        font-size: 1.3rem;
+    }
+    .main{
+        width: 100%;
+
+    }
+    th{
+        font-size: 0.8rem;
+    }
+    td{
+        font-size: 0.7rem;
+    }
+    
+    
+  
+    
+}
