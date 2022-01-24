@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.boton{
+    margin-top: 2rem;
+}
+.boton button a{
+    text-decoration: none;
+    color: black;
+}
+.boton button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.body{
+     
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+    
+}
+
+.head img{
+    width: 20rem;
+    margin-left: 4rem;
+}
+
+.head h1{
+    margin-right: 7rem;
+    font-weight:normal;
+}
+
+.head{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 0rem;
+
+}
+.title h2{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 3px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    
+}
+video{
+    
+    border:1px solid rgba(94, 94, 94, 0.336);
+    border-radius:0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2rem;
+}
+.text h3{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.text article{
+    width: 25rem;
+    text-align: center;
+}
+.botones{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.botones button{
+
+    padding: 0.3rem 1.5rem;
+    margin-top: 1rem;
+    background: #1ea6be;
+    border: 1px solid #1ea6be;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+    
+}
+.botones button:hover{
+    background: white;
+    color: #1ea6be;
+    transition: 0.5s;
+}
+.title h2:hover{
+    cursor: pointer;
+    background: rgba(94, 94, 94, 0.144);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: 0.5s;
+}
+
+
+
+@media (max-width:800px){
+
+   
+    .head{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h1{
+        margin-right: 0rem;
+    }
+    .body{
+     
+        width: 100%;
+        
+    }
+    .head img{
+        width: 13rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .head h1{
+        font-size: 1.3rem;
+    }
+    .main{
+        width: 90%;
+
+    }
+    .title h2{
+        font-size: 1.2rem;
+        
+    }
+    .title{
+        width: 20rem;
+    }
+    .text article{
+        font-size: 0.8rem;
+        width: 20rem;
+    }
+    video{
+        width: 310px !important;
+        height: 230px !important;
+    }
+    
+    
+  
+    
+}
