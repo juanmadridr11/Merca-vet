@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63278b27fd.js" crossorigin="anonymous"></script>
+    <title>Merca-Vet</title>
+
+    <!--ICONO DE LA EMPRESA-->
+    <link rel="shortcut icon" href="logo mercavet@3x.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!--BOTON DE INICIO-->
+    <div class="boton"><button><a href="">INICIO</a></button></div>
+
+    <div class="body">
+
+        <!--Cabezera (logo y titulo)-->
+        <header>
+
+            <!--Caja para el flex-->
+            <div class="head">
+
+                <img src="logo mercavet@3x.png" alt="Logo">
+                <h1>Plan Estrategico De Seguridad Vial</h1>
+
+            </div>
+
+        </header>
+
+        <!--CAJA PRINCIPAL-->
+        <main>
+            
+            <div class="main">
+
+                <div class="title" >
+                    <h2>Lista de chequeo diario para vehículos</h2>
+                    <p>FO-SV-002, versión 2</p>
+                </div>
+
+                <div class="form">
+
+                    <form action="">
+                        <div class="box" >
+                            <label for="date">
+                                Fecha <i class="fas fa-asterisk" style="font-size: 0.5rem;vertical-align: top;color: rgb(197, 0, 0);"></i> <br><br>
+                                <input type="date" name="date" id="date">
+                            </label>
+                        </div>
+
+                        <div class="box" id="box-1">
+                            <label for="city">
+                                Ciudad <i class="fas fa-asterisk" style="font-size: 0.5rem;vertical-align: top;color: rgb(197, 0, 0);"></i> <br><br>
+                                <input type="text" name="city" id="city">
+                            </label>
+
+                        </div>
+
+                        <div class="box" id="box-2">
+                            <label for="card">
+                                Placa del carro <i class="fas fa-asterisk" style="font-size: 0.5rem;vertical-align: top;color: rgb(197, 0, 0);"></i> <br><br>
+                                <input type="text" name="card" id="card">
+                            </label>
+
+                        </div>
+
+                        <div class="box">
+                            <label for="documents">
+                                ¿Documentos vigentes? <i class="fas fa-asterisk" style="font-size: 0.5rem;vertical-align: top;color: rgb(197, 0, 0);"></i> <br><br>
+                                <table>
+                                    <tr>
+                                        <th></th>
+                                        <th>Si</th>
+                                        <th>No</th>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Licencia de conduccion</td>
+                                        <td><input type="checkbox" id="documents" name="documents"></td>
+                                        <td><input type="checkbox" id="documents" name="documents"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Soat</td>
+                                        <td><input type="checkbox"id="documents" name="documents"></td>
+                                        <td><input type="checkbox" id="documents" name="documents"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">RTM</td>
+                                        <td><input type="checkbox" id="documents" name="documents"></td>
+                                        <td><input type="checkbox" id="documents" name="documents"></td>
+
+                                    </tr>
+                                </table>
+                            </label>
+
+                        </div>
+
+                        <div class="box" style="margin-bottom: 0rem;">
+                            <label for="documents-2">
+                                Elementos a inspeccionar ¿Conformes? <i class="fas fa-asterisk" style="font-size: 0.5rem;vertical-align: top;color: rgb(197, 0, 0);"></i> <br><br>
+                                <table>
+                                    <tr>
+                                        <th></th>
+                                        <th>Si</th>
+                                        <th>No</th>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Direccionales delanteros</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Direccionales traseros</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Luces altas</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Luces bajas</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Stop</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Reversa</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Limpia brisas</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Frenos principales</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Frenos de emergencia</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Llantas</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Llantas de repuesto</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Espejos</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Pito</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Cinturon de seguridad</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Niveles de aceite</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Niveles de agua</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2"></td>
+
+                                    </tr>
+                                    <tr class="tr" style="transition: 0.5s;">
+                                        <td class="tds">Extintor al dia</td>
+                                        <td><input type="checkbox" id="documents-2" name="documents-2"></td>
+                                        <td><input type="checkbox"id="documents-2" name="documents-2" ></td>
+
+                                    </tr>
+                                </table>
+                            </label>
+                            <label for="boton">
+                                <input type="submit" id="boton" name="boton">
+                            </label>
+
+                        </div>
+
+                    </form>
+
+                </div>
+                
+            </div>
+            
+        </main>
+
+    </div>
+
+</body>
+</html>
